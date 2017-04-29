@@ -80,7 +80,7 @@ config = {
                  pass: 'P@ssword'  // mailgun password
              }
          },
-         from: '"no_reply" <onlyghostemailcc@gmail.com>' // 'from' address when sending emails
+         from: 'onlyghostemailcc@gmail.com' // 'from' address when sending emails
         },
         database: {
             client: 'sqlite3',
