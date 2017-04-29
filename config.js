@@ -77,7 +77,7 @@ config = {
              service: 'Gmail',
              auth: {
                  user: 'onlyghostemailcc@gmail.com', // mailgun username
-                 pass: 'P@ssword'  // mailgun password
+                 pass: 'Bcn!1714'  // mailgun password
              }
          },
          from: 'onlyghostemailcc@gmail.com' // 'from' address when sending emails
