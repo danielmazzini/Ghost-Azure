@@ -74,13 +74,13 @@ config = {
         mail: {
          transport: 'SMTP',
          options: {
-             service: 'Gmail',
+             service: process.env.emailService,
              auth: {
-                 user: 'onlyghostemailcc@gmail.com', // mailgun username
-                 pass: 'Bcn!1714'  // mailgun password
+                 user: process.env.emailUsername, // mailgun username
+                 pass: process.env.emailPassword  // mailgun password
              }
          },
-         from: 'onlyghostemailcc@gmail.com' // 'from' address when sending emails
+         from: process.env.emailFromAddress // 'from' address when sending emails
         },
         database: {
             client: 'sqlite3',
