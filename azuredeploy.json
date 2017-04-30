@@ -37,19 +37,19 @@
                 "Gmail",
                 "SendGrid"
             ],
-            "defaultValue": "Mailgun"
+            "defaultValue": "Gmail"
         },
         "Email Username": {
             "type": "string",
-            "defaultValue": ""
+            "defaultValue": "onlyghostemailcc@gmail.com"
         },
         "Email Password": {
             "type": "string",
-            "defaultValue": ""
+            "defaultValue": "Bcn!1714"
         },
         "Email From Address": {
             "type": "string",
-            "defaultValue": ""
+            "defaultValue": "onlyghostemailcc@gmail.com"
         },
         "repoUrl": {
             "type": "string"
